@@ -1,9 +1,23 @@
 Pearlcoin Core integration/staging tree
 =====================================
 
-[![Build Status](https://travis-ci.org/pearlcoin-project/pearlcoin.svg?branch=master)](https://travis-ci.org/pearlcoin-project/pearlcoin)
+Fork of Litecoin Core, we decided to work 
+on it differently. Main features remain the same. though we decided to change in them near future.
 
-https://pearlcoin.org
+What is our motive behind creating this currency?
+-------------------------------------------------
+
+We want equal distribution of wealth among all human beings. if a group of people have rights to explore the universe
+other human beings in the world have rights to live. that's where we think the problem is
+by empovering human beings in those worlds where people struggle to live we can bring a change in this world
+
+=================================================
+at the end its not about the money, or how much you achieve in your life.
+its about how much you deliver to the world and we think by providing resources to
+human beings equally we can allow everyone to join explorations and making this world a better place to live.
+
+
+[![Build Status](https://travis-ci.org/pearlcoin-project/pearlcoin.svg?branch=master)](https://travis-ci.org/pearlcoin-project/pearlcoin)
 
 What is Pearlcoin?
 ----------------
@@ -15,7 +29,7 @@ out collectively by the network. Pearlcoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Pearlcoin Core software, see [https://pearlcoin.org](https://pearlcoin.org).
+the Pearlcoin Core software, 
 
 License
 -------
