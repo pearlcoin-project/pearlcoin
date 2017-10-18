@@ -6,15 +6,9 @@ on it differently. Main features remain the same. though we decided to change in
 
 What is our motive behind creating this currency?
 -------------------------------------------------
-
-We want equal distribution of wealth among all human beings. if a group of people have rights to explore the universe
-other human beings in the world have rights to live. that's where we think the problem is
-by empovering human beings in those worlds where people struggle to live we can bring a change in this world
-
-=================================================
-at the end its not about the money, or how much you achieve in your life.
-its about how much you deliver to the world and we think by providing resources to
-human beings equally we can allow everyone to join explorations and making this world a better place to live.
+Equal distribution of wealth no matter what! that is our moto.
+We plan to start several projects in different countries to help make this world a better place.
+Where everyone has a right to live and not to die in poverty and misery.
 
 
 [![Build Status](https://travis-ci.org/pearlcoin-project/pearlcoin.svg?branch=master)](https://travis-ci.org/pearlcoin-project/pearlcoin)
