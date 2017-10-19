@@ -2,7 +2,7 @@ Pearlcoin Core integration/staging tree
 =====================================
 
 Fork of Litecoin Core, we decided to work 
-on it differently. Main features remain the same. though we decided to change in them near future.
+on it differently. Main features remain the same. though we decided to change them near future.
 
 What is our motive behind creating this currency?
 -------------------------------------------------
