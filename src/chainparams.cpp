@@ -124,8 +124,9 @@ public:
         assert(genesis.hashMerkleRoot == uint256S("0x9277106797e2955b15f3bfb6f472ec9aa715773c8c352e46cfb5b2640d8b6433"));
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        //vSeeds.push_back(CDNSSeedData("loshan.co.uk", "seed-a.pearlcoin.loshan.co.uk", true));
-        //vSeeds.push_back(CDNSSeedData("thrasher.io", "dnsseed.thrasher.io", true));
+        vSeeds.push_back(CDNSSeedData("bilalpc", "119.157.29.83", true));
+        vSeeds.push_back(CDNSSeedData("bilalserver", "173.212.194.240", true));
+
         //vSeeds.push_back(CDNSSeedData("pearlcointools.com", "dnsseed.pearlcointools.com"));
         //vSeeds.push_back(CDNSSeedData("pearlcoinpool.org", "dnsseed.pearlcoinpool.org"));
         //vSeeds.push_back(CDNSSeedData("koin-project.com", "dnsseed.koin-project.com"));
