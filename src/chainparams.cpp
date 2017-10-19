@@ -74,8 +74,8 @@ public:
         consensus.nMajorityEnforceBlockUpgrade = 750;
         consensus.nMajorityRejectBlockOutdated = 950;
         consensus.nMajorityWindow = 1000;
-        consensus.BIP34Height = 0;
-        consensus.BIP34Hash = uint256S("0x");
+        consensus.BIP34Height = 50;
+        consensus.BIP34Hash = uint256S("0x42dea09c84d4db68fde2f1566fac7ed2c434cbee9c9023b0937e3a3996cd8a46");
         consensus.powLimit = uint256S("00000fffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"); 
         consensus.nPowTargetTimespan = 3.5 * 24 * 60 * 60; // 3.5 days
         consensus.nPowTargetSpacing = 2.5 * 60;
@@ -84,8 +84,8 @@ public:
         consensus.nRuleChangeActivationThreshold = 6048; // 75% of 8064
         consensus.nMinerConfirmationWindow = 8064; // nPowTargetTimespan / nPowTargetSpacing * 4
         consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].bit = 28;
-        consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nStartTime = 0; // January 1, 2008
-        consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nTimeout = 999999999999ULL; // December 31, 2008
+        consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nStartTime = 1508397046; // 10/19/2017 @ 7:10am (UTC)
+        consensus.vDeployments[Consensus::DEPLOYMENT_TESTDUMMY].nTimeout = 1539129600; // 10/10/2018
 
         // Deployment of BIP68, BIP112, and BIP113.
         consensus.vDeployments[Consensus::DEPLOYMENT_CSV].bit = 0;
@@ -127,12 +127,6 @@ public:
         vSeeds.push_back(CDNSSeedData("bilalpc", "119.157.29.83", true));
         vSeeds.push_back(CDNSSeedData("bilalserver", "173.212.194.240", true));
 
-        //vSeeds.push_back(CDNSSeedData("pearlcointools.com", "dnsseed.pearlcointools.com"));
-        //vSeeds.push_back(CDNSSeedData("pearlcoinpool.org", "dnsseed.pearlcoinpool.org"));
-        //vSeeds.push_back(CDNSSeedData("koin-project.com", "dnsseed.koin-project.com"));
-        vFixedSeeds.clear();
-        vSeeds.clear();
-
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,50);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,6);
         base58Prefixes[SECRET_KEY] =     std::vector<unsigned char>(1,216);
@@ -150,8 +144,13 @@ public:
 	checkpointData = (CCheckpointData) {
 		boost::assign::map_list_of
 			(  0, uint256S("0x4056a74e055f76326bf08a841056239901d1090ba575daf01432d22abbbbe6d5")),
-			1507616851, // * UNIX timestamp of last checkpoint block
-			0,   // * total number of transactions between genesis and last checkpoint
+		(  20, uint256S("0x67819a39992326b81cac01b77d4832c8a4cab84eea65cb3277b60d77d440d292")),
+		(  50, uint256S("0x42dea09c84d4db68fde2f1566fac7ed2c434cbee9c9023b0937e3a3996cd8a46")),
+		(  100, uint256S("0xcb5e18107f2fa23253c35f51025e3184e7d9c6e94854cc7316f9df8c858fc40f")),
+		(  110, uint256S("0xd60ebd108b7ac4dd67d259a0341bda8bea4f9645311630d732cfed22aa393b76")),
+		(  125, uint256S("0x8b8bde651479aefd8f144683e138868b052b9aaf54dda817acf57df16ab929c8")),
+			1508439227, // * UNIX timestamp of last checkpoint block
+			127,   // * total number of transactions between genesis and last checkpoint
 			//   (the tx=... number in the SetBestChain debug.log lines)
 			5500.0     // * estimated number of transactions per day after checkpoint
 	};
